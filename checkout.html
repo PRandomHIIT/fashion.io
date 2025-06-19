@@ -1,16 +1,16 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
     
-<!-- Mirrored from wphix.com/template/Thread & Frame/Thread & Frame/cart.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Oct 2023 08:30:39 GMT -->
+<!-- Mirrored from wphix.com/template/vue/vue/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Oct 2023 08:30:39 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Thread & Frame - Clean Minimal eCommerce HTML Template</title>
+        <title>Vue - Clean Minimal eCommerce HTML Template</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="manifest" href="site.html">
-		<link rel="shortcut icon" type="image/x-icon" href=" favicon.png">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
@@ -54,7 +54,7 @@
                                 <span class="bar3"></span>
                             </div>
                             <div class="logo">
-                                <a href="index.html"><img src=" logo/logo.png" alt=""></a>
+                                <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
                             </div>
 
                             <div class="category-menu">
@@ -242,7 +242,7 @@
                                             <li>
                                                 <div class="cart-img">
                                                     <a href="product-details.html">
-                                                        <img src=" product/pro1.jpg" alt="" />
+                                                        <img src="img/product/pro1.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="cart-content">
@@ -265,7 +265,7 @@
                                             <li>
                                                 <div class="cart-img">
                                                     <a href="product-details.html">
-                                                        <img src=" product/pro2.jpg" alt="" />
+                                                        <img src="img/product/pro2.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="cart-content">
@@ -275,7 +275,7 @@
                                                     <div class="cart-price">
                                                         <span class="new">Rs 229.9</span>
                                                         <span>
-                                                            <del>Rs239.9</del>
+                                                            <del> Rs239.9</del>
                                                         </span>
                                                     </div>
                                                 </div>
@@ -288,7 +288,7 @@
                                             <li>
                                                 <div class="cart-img">
                                                     <a href="product-details.html">
-                                                        <img src=" product/pro3.jpg" alt="" />
+                                                        <img src="img/product/pro3.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="cart-content">
@@ -338,15 +338,15 @@
         <main>
 
         <!-- breadcrumb-area-start -->
-        <section class="breadcrumb-area" data-background=" bg/page-title.png">
+        <section class="breadcrumb-area" data-background="img/bg/page-title.png">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="breadcrumb-text text-center">
-                            <h1>Shoping Cart</h1>
+                            <h1>Checkout</h1>
                             <ul class="breadcrumb-menu">
                                 <li><a href="index.html">home</a></li>
-                                <li><span>Cart</span></li>
+                                <li><span>Checkout</span></li>
                             </ul>
                         </div>
                     </div>
@@ -355,105 +355,440 @@
         </section>
         <!-- breadcrumb-area-end -->
 
-        <!-- Cart Area Strat-->
-        <section class="cart-area pt-100 pb-100">
+        <!-- coupon-area start -->
+        <section class="coupon-area pt-100 pb-30">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <form action="#">
-                            <div class="table-content table-responsive">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th class="product-thumbnail">Images</th>
-                                            <th class="cart-product-name">Product</th>
-                                            <th class="product-price">Unit Price</th>
-                                            <th class="product-quantity">Quantity</th>
-                                            <th class="product-subtotal">Total</th>
-                                            <th class="product-remove">Remove</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="product-thumbnail"><a href="#"><img src=" product/pro1.jpg"
-                                                        alt=""></a></td>
-                                            <td class="product-name"><a href="#">Bakix Furniture</a></td>
-                                            <td class="product-price"><span class="amount">Rs130.00</span></td>
-                                            <td class="product-quantity">
-                                                <div class="cart-plus-minus"><input type="text" value="1" /></div>
-                                            </td>
-                                            <td class="product-subtotal"><span class="amount">Rs130.00</span></td>
-                                            <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="product-thumbnail"><a href="#"><img src=" product/pro2.jpg"
-                                                        alt=""></a></td>
-                                            <td class="product-name"><a href="#">Sujon Chair Set</a></td>
-                                            <td class="product-price"><span class="amount">Rs120.50</span></td>
-                                            <td class="product-quantity">
-                                                <div class="cart-plus-minus"><input type="text" value="1" /></div>
-                                            </td>
-                                            <td class="product-subtotal"><span class="amount">Rs120.50</span></td>
-                                            <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="coupon-all">
-                                        <div class="coupon">
-                                            <input id="coupon_code" class="input-text" name="coupon_code" value="" placeholder="Coupon code"
-                                                type="text">
-                                            <button class="btn theme-btn-2" name="apply_coupon" type="submit">Apply coupon</button>
-                                        </div>
-                                        <div class="coupon2">
-                                            <input class="btn theme-btn" name="update_cart" value="Update cart" type="submit">
-                                        </div>
-                                    </div>
+                    <div class="col-md-6">
+                        <div class="coupon-accordion">
+                            <!-- ACCORDION START -->
+                            <h3>Returning customer? <span id="showlogin">Click here to login</span></h3>
+                            <div id="checkout-login" class="coupon-content">
+                                <div class="coupon-info">
+                                    <p class="coupon-text">Quisque gravida turpis sit amet nulla posuere lacinia. Cras sed est
+                                        sit amet ipsum luctus.</p>
+                                    <form action="#">
+                                        <p class="form-row-first">
+                                            <label>Username or email <span class="required">*</span></label>
+                                            <input type="text" />
+                                        </p>
+                                        <p class="form-row-last">
+                                            <label>Password <span class="required">*</span></label>
+                                            <input type="text" />
+                                        </p>
+                                        <p class="form-row">
+                                            <button class="btn theme-btn" type="submit">Login</button>
+                                            <label>
+                                                <input type="checkbox" />
+                                                Remember me
+                                            </label>
+                                        </p>
+                                        <p class="lost-password">
+                                            <a href="#">Lost your password?</a>
+                                        </p>
+                                    </form>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-5 ml-auto">
-                                    <div class="cart-page-total">
-                                        <h2>Cart totals</h2>
-                                        <ul class="mb-20">
-                                            <li>Subtotal <span>Rs250.00</span></li>
-                                            <li>Total <span>Rs250.00</span></li>
-                                        </ul>
-                                        <a class="btn theme-btn" href="#">Proceed to checkout</a>
-                                    </div>
+                            <!-- ACCORDION END -->
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="coupon-accordion">
+                            <!-- ACCORDION START -->
+                            <h3>Have a coupon? <span id="showcoupon">Click here to enter your code</span></h3>
+                            <div id="checkout_coupon" class="coupon-checkout-content">
+                                <div class="coupon-info">
+                                    <form action="#">
+                                        <p class="checkout-coupon">
+                                            <input type="text" placeholder="Coupon Code" />
+                                            <button class="btn theme-btn" type="submit">Apply Coupon</button>
+                                        </p>
+                                    </form>
                                 </div>
                             </div>
-                        </form>
+                            <!-- ACCORDION END -->
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Cart Area End-->
+        <!-- coupon-area end -->
+        <!-- checkout-area start -->
+        <section class="checkout-area pb-70">
+            <div class="container">
+                <form action="#">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="checkbox-form">
+                                <h3>Billing Details</h3>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="country-select">
+                                            <label>Country <span class="required">*</span></label>
+                                            <select>
+                                                <option value="volvo">bangladesh</option>
+                                                <option value="saab">Algeria</option>
+                                                <option value="mercedes">Afghanistan</option>
+                                                <option value="audi">Ghana</option>
+                                                <option value="audi2">Albania</option>
+                                                <option value="audi3">Bahrain</option>
+                                                <option value="audi4">Colombia</option>
+                                                <option value="audi5">Dominican Republic</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="checkout-form-list">
+                                            <label>First Name <span class="required">*</span></label>
+                                            <input type="text" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="checkout-form-list">
+                                            <label>Last Name <span class="required">*</span></label>
+                                            <input type="text" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="checkout-form-list">
+                                            <label>Company Name</label>
+                                            <input type="text" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="checkout-form-list">
+                                            <label>Address <span class="required">*</span></label>
+                                            <input type="text" placeholder="Street address" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="checkout-form-list">
+                                            <input type="text" placeholder="Apartment, suite, unit etc. (optional)" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="checkout-form-list">
+                                            <label>Town / City <span class="required">*</span></label>
+                                            <input type="text" placeholder="Town / City" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="checkout-form-list">
+                                            <label>State / County <span class="required">*</span></label>
+                                            <input type="text" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="checkout-form-list">
+                                            <label>Postcode / Zip <span class="required">*</span></label>
+                                            <input type="text" placeholder="Postcode / Zip" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="checkout-form-list">
+                                            <label>Email Address <span class="required">*</span></label>
+                                            <input type="email" placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="checkout-form-list">
+                                            <label>Phone <span class="required">*</span></label>
+                                            <input type="text" placeholder="Postcode / Zip" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="checkout-form-list create-acc">
+                                            <input id="cbox" type="checkbox" />
+                                            <label>Create an account?</label>
+                                        </div>
+                                        <div id="cbox_info" class="checkout-form-list create-account">
+                                            <p>Create an account by entering the information below. If you are a returning
+                                                customer please login at the top of the page.</p>
+                                            <label>Account password <span class="required">*</span></label>
+                                            <input type="password" placeholder="password" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="different-address">
+                                    <div class="ship-different-title">
+                                        <h3>
+                                            <label>Ship to a different address?</label>
+                                            <input id="ship-box" type="checkbox" />
+                                        </h3>
+                                    </div>
+                                    <div id="ship-box-info">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="country-select">
+                                                    <label>Country <span class="required">*</span></label>
+                                                    <select>
+                                                        <option value="volvo">bangladesh</option>
+                                                        <option value="saab">Algeria</option>
+                                                        <option value="mercedes">Afghanistan</option>
+                                                        <option value="audi">Ghana</option>
+                                                        <option value="audi2">Albania</option>
+                                                        <option value="audi3">Bahrain</option>
+                                                        <option value="audi4">Colombia</option>
+                                                        <option value="audi5">Dominican Republic</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="checkout-form-list">
+                                                    <label>First Name <span class="required">*</span></label>
+                                                    <input type="text" placeholder="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="checkout-form-list">
+                                                    <label>Last Name <span class="required">*</span></label>
+                                                    <input type="text" placeholder="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="checkout-form-list">
+                                                    <label>Company Name</label>
+                                                    <input type="text" placeholder="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="checkout-form-list">
+                                                    <label>Address <span class="required">*</span></label>
+                                                    <input type="text" placeholder="Street address" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="checkout-form-list">
+                                                    <input type="text" placeholder="Apartment, suite, unit etc. (optional)" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="checkout-form-list">
+                                                    <label>Town / City <span class="required">*</span></label>
+                                                    <input type="text" placeholder="Town / City" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="checkout-form-list">
+                                                    <label>State / County <span class="required">*</span></label>
+                                                    <input type="text" placeholder="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="checkout-form-list">
+                                                    <label>Postcode / Zip <span class="required">*</span></label>
+                                                    <input type="text" placeholder="Postcode / Zip" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="checkout-form-list">
+                                                    <label>Email Address <span class="required">*</span></label>
+                                                    <input type="email" placeholder="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="checkout-form-list">
+                                                    <label>Phone <span class="required">*</span></label>
+                                                    <input type="text" placeholder="Postcode / Zip" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="order-notes">
+                                        <div class="checkout-form-list">
+                                            <label>Order Notes</label>
+                                            <textarea id="checkout-mess" cols="30" rows="10" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="your-order mb-30 ">
+                                <h3>Your order</h3>
+                                <div class="your-order-table table-responsive">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th class="product-name">Product</th>
+                                                <th class="product-total">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="cart_item">
+                                                <td class="product-name">
+                                                    Vestibulum suscipit <strong class="product-quantity"> × 1</strong>
+                                                </td>
+                                                <td class="product-total">
+                                                    <span class="amount">Rs165.00</span>
+                                                </td>
+                                            </tr>
+                                            <tr class="cart_item">
+                                                <td class="product-name">
+                                                    Vestibulum dictum magna <strong class="product-quantity"> × 1</strong>
+                                                </td>
+                                                <td class="product-total">
+                                                    <span class="amount">Rs50.00</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                        <tfoot>
+                                            <tr class="cart-subtotal">
+                                                <th>Cart Subtotal</th>
+                                                <td><span class="amount">Rs215.00</span></td>
+                                            </tr>
+                                            <tr class="shipping">
+                                                <th>Shipping</th>
+                                                <td>
+                                                    <ul>
+                                                        <li>
+                                                            <input type="radio" />
+                                                            <label>
+                                                                Flat Rate: <span class="amount">Rs7.00</span>
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" />
+                                                            <label>Free Shipping:</label>
+                                                        </li>
+                                                        <li></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr class="order-total">
+                                                <th>Order Total</th>
+                                                <td><strong><span class="amount">Rs215.00</span></strong>
+                                                </td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+
+                                <div class="payment-method">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card">
+                                            <div class="card-header" id="headingOne">
+                                                <h5 class="mb-0">
+                                                    <button class="btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne">
+                                                        Direct Bank Transfer
+                                                    </button>
+                                                </h5>
+                                            </div>
+
+                                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                                data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    Make your payment directly into our bank account. Please use your Order ID
+                                                    as the payment
+                                                    reference. Your order won’t be
+                                                    shipped until the funds have cleared in our account.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="headingTwo">
+                                                <h5 class="mb-0">
+                                                    <button class="btn-link collapsed" type="button" data-toggle="collapse"
+                                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        Cheque Payment
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    Please send your cheque to Store Name, Store Street, Store Town, Store
+                                                    State / County, Store
+                                                    Postcode.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="headingThree">
+                                                <h5 class="mb-0">
+                                                    <button class="btn-link collapsed" type="button" data-toggle="collapse"
+                                                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                        PayPal
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    Pay via PayPal; you can pay with your credit card if you don’t have a
+                                                    PayPal account.
+                                                </div>
+                                            </div>
+                                        </div>
+										<div class="card">
+                                            <div class="card-header" id="headingFour">
+                                                <h5 class="mb-0">
+                                                    <button class="btn-link collapsed" type="button" data-toggle="collapse"
+                                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                        GooglePay
+                                                    </button>
+                                                </h5>
+                                            </div>
+											<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    Pay via GooglePay; you can pay with your credit card if you don’t have a
+                                                    GooglePay account.
+                                                </div>
+                                            </div>
+                                        </div>
+										<div class="card">
+                                            <div class="card-header" id="headingFive">
+                                                <h5 class="mb-0">
+                                                    <button class="btn-link collapsed" type="button" data-toggle="collapse"
+                                                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                        Paytm/UPI
+                                                    </button>
+                                                </h5>
+                                            </div>
+											<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    Pay via Paytm/UPI; you can pay with your credit card if you don’t have a
+                                                    Paytm account.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                    <div class="order-button-payment mt-20">
+                                        <button type="submit" class="btn theme-btn">Place order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- checkout-area end -->
 
 
         </main>
 
         <!-- footer start -->
         <footer class="footer-area pl-100 pr-100">
-            <div class="footer-area box-90 pt-100 pb-60" data-background=" bg/footer.jpg">
+            <div class="footer-area box-90 pt-100 pb-60" data-background="img/bg/footer.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-5 col-lg-6 col-md-6 ">
                             <div class="footer-widget mb-40 pr-70">
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src=" logo/footer-logo.png" alt=""></a>
+                                    <a href="index.html"><img src="img/logo/footer-logo.png" alt=""></a>
                                 </div>
-                                <p>Discover Quality Furniture for Every Space Find the perfect pieces to complete your home with our curated collection of stylish, durable, and affordable furniture. From cozy sofas and elegant dining sets to functional office desks and storage solutions, we offer something for every room and taste. Enjoy a seamless online shopping experience, fast shipping, and exceptional customer service that makes furnishing your home easier than ever.
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore mag na
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat.
                                 </p>
                                 <div class="footer-time d-flex mt-30">
                                     <div class="time-icon">
-                                        <img src=" icon/time.png" alt="">
+                                        <img src="img/icon/time.png" alt="">
                                     </div>
                                     <div class="time-text">
                                         <span>Got Questions ? Call us 24/7!</span>
-                                        <h2>79064 05809</h2>
+                                        <h2>(0600) 874 548</h2>
                                     </div>
                                 </div>
                             </div>
@@ -553,5 +888,5 @@
         <script src="js/main.js"></script>
     </body>
 
-<!-- Mirrored from wphix.com/template/Thread & Frame/Thread & Frame/cart.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Oct 2023 08:30:39 GMT -->
+<!-- Mirrored from wphix.com/template/vue/vue/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Oct 2023 08:30:39 GMT -->
 </html>
